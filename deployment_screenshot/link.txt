@@ -1,2 +1,2 @@
-The endpoint URL: http://linhlv-env.eba-emxjbc3r.us-east-1.elasticbeanstalk.com
-Git repository: https://github.com/luongvanlinh303/cd12099-Full-Stack-Apps-AWS
+Link Repository: https://github.com/luongvanlinh303/cd12099-Full-Stack-Apps-AWS
+Link Endpoint URL: http://linhlv-env.eba-emxjbc3r.us-east-1.elasticbeanstalk.com
