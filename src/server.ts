@@ -19,13 +19,13 @@ app.get("/filteredimage/",async (req: Request,res: Response)=>{
 
   if( !image_url ) {
     return res.status(422)
-              .send(`Unprocessable entity`);
+              .send({message: "Unprocessable entity"});
   }
 
   if (!imageRegex.test(image_url)) {
     return res
     .status(404)
-    .send({ auth: false, message: "Image url not found"});
+    .send({message: "Image url not found"});
   }
 
   const filteredPath = await filterImageFromURL(image_url);
