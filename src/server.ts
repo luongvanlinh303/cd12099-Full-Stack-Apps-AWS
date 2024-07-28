@@ -17,7 +17,7 @@ app.get("/filteredimage/",async (req: Request,res: Response)=>{
   let {image_url}: any = req.query;
   const imageRegex = /^(https?:\/\/.*\.(?:png|jpg|jpeg|gif|bmp|webp))$/i;
 
-  if( !image_url ) {
+  if(!image_url) {
     return res.status(422)
               .send({message: "Unprocessable entity"});
   }
