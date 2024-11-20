@@ -1,7 +1,7 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Full-Stack-Apps-AWS",
   "main": "dist/server.js",
   "type": "module",
   "scripts": {
